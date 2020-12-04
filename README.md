@@ -9,9 +9,9 @@ RecFy
 <p align="center">A music stream plataform for Pernambuco</p>
 
 <div>
-    <img src="./images/readme/reacfy_fully.gif" alt="gif showing the application fully functioning">
+    <img style="background-color: #010032;" src="./images/readme/recfy_fully.gif" alt="gif showing the application fully functioning">
     <img src="./images/readme/dark_mode.png" alt="the application in dark mode">
-    <img src="./images/readme/light.png" alt="the application in light mode">
+    <img src="./images/readme/light_mode.png" alt="the application in light mode">
 </div>
 
 ## Features
