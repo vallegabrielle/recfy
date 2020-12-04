@@ -29,7 +29,15 @@
 
             <section>
                 <p>Os melhores<br/>artistas do estado<br/>esperando por você.</p>
-                <img src="./images/baha.JPG" alt={`Album ${artists[imageCounter].name}`}/>
+                <div id="images">
+                    <img class="actual" src="./images/baha.JPG" alt="Baha! album"/>
+                    <img src="./images/academia.jpg" alt="Academia da Berlinda album"/>
+                    <img src="./images/dudabeat.jpg" alt="Duda Beat album"/>
+                    <img src="./images/hooker.jpg" alt="Johnny Hooker album"/>
+                    <img src="./images/pereira.jpeg" alt="Seu Pereira e o Coletivo 401 album"/>
+                    <img src="./images/yvison.png" alt="Yvison album"/>
+                </div>
+                
 
             </section>
 
@@ -40,11 +48,13 @@
                 </div>
 
                 <div class="switch">
-                    <button>ACENDA AS LUZES!</button>
+                    <button id="switch-button">LUZES!</button>
                 </div>
             </footer>
 
         </div>
     </div>
+
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

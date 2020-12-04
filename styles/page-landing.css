@@ -8,7 +8,7 @@
     --button-lighter: #fc72cc;
     --buttons-text-color: #ffffff;
     --lights: #FFFFFF;
-    --lights-hover: #999898;
+    --lights-hover: #999998;
     --border: #FFFFFF;
     --big-shadow: rgba(1, 16, 45, 0.2);
     --album-shadow: ;
@@ -26,10 +26,9 @@
     --button-lighter: #020094;
     --buttons-text-color: #FFFFFF;
     --lights: #FFFFFF;
-    --lights-hover: #999898;
+    --lights-hover: #0f4597;
     --border: #FFFFFF;
     --big-shadow:  rgba(1, 16, 45, 0.2);
-
 
     font-size: 80%;
 }
@@ -104,7 +103,7 @@
 .wrapper .content section img {
     width: 20rem;
     margin-left: 25rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
 
     border: 1rem solid var(--border);
     box-shadow: 0.2rem 0.2rem 0.1rem rgba(127, 167, 255, 0.659);
@@ -116,7 +115,7 @@
     align-items: center;
 
 
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
 
     color: var(--lights);
 }
@@ -161,5 +160,23 @@
     color: var(--lights-hover);
 }
 
+/* changing images */
+
+#images img {
+    width: 20rem;
+    height: 20.5rem;
+    object-fit: cover;
+
+    opacity: 0;
+    display: none;
+    transition: opacity 0.6;
+}
+
+#images img.actual {
+    opacity: 1;
+    display: initial;
+}
+
+/* media queries */
 
 
