@@ -1,8 +1,4 @@
 <h1 align="center">
-<br>
-    <img src="./images/logo.png" alt="logo RecFy">
-<br>
-<br>
 RecFy
 </h1>
 
